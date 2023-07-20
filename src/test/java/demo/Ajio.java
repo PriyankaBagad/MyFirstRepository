@@ -13,5 +13,6 @@ public class Ajio
 	  driver.get("https://www.ajio.com/");
 	  driver.close();
 	  Thread.sleep(1000);
+	  System.out.println("This is Ajio Page...");
   }
 }
